@@ -1,5 +1,92 @@
-<html>
- <body>
-   
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <main class="weather-card">
+        <section class="hero-panel">
+            <div class="hero-content">
+                <h1>Monday</h1>
+                <p class="date">20 Jun 2022</p>
+                <div class="location">
+                    <i class="fas fa-location-dot"></i> Biarritz, FR
+                </div>
+            </div>
+
+            <div class="hero-content temp-display">
+                <i class="fas fa-sun"></i>
+                <span class="degrees">29 °C</span>
+                <span class="condition">Sunny</span>
+            </div>
+        </section>
+
+        <section class="details-panel">
+            <div class="weather-stats">
+                <div class="stat-line">
+                    <span>Precipitation</span>
+                    <span>0%</span>
+                </div>
+                <div class="stat-line">
+                    <span>Humidity</span>
+                    <span>42%</span>
+                </div>
+                <div class="stat-line">
+                    <span>Wind</span>
+                    <span>3 km/h</span>
+                </div>
+            </div>
+
+            <div class="forecast-grid">
+                <div class="forecast-item active">
+                    <i class="fas fa-sun"></i>
+                    <span class="day">Tue</span>
+                    <span class="high">30 °C</span>
+                </div>
+                <div class="forecast-item">
+                    <i class="fas fa-cloud-sun"></i>
+                    <span class="day">Wed</span>
+                    <span class="high">22 °C</span>
+                </div>
+                <div class="forecast-item">
+                    <i class="fas fa-cloud-showers-heavy"></i>
+                    <span class="day">Thu</span>
+                    <span class="high">06 °C</span>
+                </div>
+                <div class="forecast-item">
+                    <i class="fas fa-sun"></i>
+                    <span class="day">Fri</span>
+                    <span class="high">26 °C</span>
+                </div>
+            </div>
+
+            <div class="sun-details">
+                <div class="sun-card">
+                    <i class="fas fa-arrow-up-from-bracket"></i>
+                    <div>
+                        <span class="label">Sunrise</span>
+                        <span class="time">06:14 AM</span>
+                    </div>
+                </div>
+                <div class="sun-card">
+                    <i class="fas fa-arrow-down-from-line" style="color: #a29bfe;"></i>
+                    <div>
+                        <span class="label">Sunset</span>
+                        <span class="time">08:42 PM</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="location-btn">
+                <i class="fas fa-location-arrow"></i> New York City
+            </button>
+        </section>
+    </main>
+
+</body>
 </html>
