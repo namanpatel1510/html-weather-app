@@ -1,0 +1,46 @@
+:root {
+    /* Colors*/
+    --color-navy-blue-100: #222831;
+    --color-navy-blue-80: #222831 0.8;
+    --color-white-100: #FFFFFF;
+    --color-black-100: #000000;
+    --color-gradient-1-90: #90D9E0 0.9;
+    --color-gradient-2-90: #5460E6 0.9;
+    --color-purple-100: #A855F7;
+    --color-yellow-100: #FBBF24;
+    --color-orange-80: #FB923C;
+    --color-darkorange-100: #FF8904;
+
+    /* Font sizes*/
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-12: 20px;
+    --font-size-24: 24px;
+    --font-size-26: 26px;
+    --font-size-28: 28px;
+    --font-size-38: 38px;
+    --font-size-50: 50px;
+    
+    /* Font Families*/
+    --font-family-montserrat: Montserrat;
+
+    --heading-font-primary: var(--font-family-montserrat);
+
+    /* Heading Sizes*/
+    --heading: var(--font-family-montserrat);
+    --heading-sm:var(--font-size-14);
+    --heading-md:var(--font-size-24);
+    --heading-lg:var(--font-size-28);
+
+    /* Border Radius*/
+    --border-round-day-panel: var(--border-corner-radius-30);
+    --border-round-day-forcast-panel: var(--border-corner-radius-24);
+    --border-radius-day: var(--border-corner-radius-20);
+
+    --border-corner-radius-10: 10px;
+    --border-corner-radius-16: 16px;
+    --border-corner-radius-20: 20px;
+    --border-corner-radius-24: 24px;
+    --border-corner-radius-30: 30px;
+}
