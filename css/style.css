@@ -1,0 +1,11 @@
+body {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-24);
+    background-color: var(--app-background);
+    color: var(--primary-text-color);
+}
+
+.panel {
+    border-radius: var(--border-round-day-panel);
+    background-color: var(--color-white-100);
+}

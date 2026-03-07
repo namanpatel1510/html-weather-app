@@ -21,11 +21,17 @@
     --font-size-28: 28px;
     --font-size-38: 38px;
     --font-size-50: 50px;
-    
+
     /* Font Families*/
     --font-family-montserrat: Montserrat;
 
     --heading-font-primary: var(--font-family-montserrat);
+
+    /* Text Sizes*/
+    --regular-text: var(--font-size-24);
+
+    /* Typhography*/
+    --primary-text-color: var(--color-white-100);
 
     /* Heading Sizes*/
     --heading: var(--font-family-montserrat);
@@ -43,4 +49,7 @@
     --border-corner-radius-20: 20px;
     --border-corner-radius-24: 24px;
     --border-corner-radius-30: 30px;
+
+    /* Design*/
+    --app-background: var(--color-navy-blue-100);
 }
