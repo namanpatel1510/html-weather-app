@@ -100,9 +100,27 @@ body {
     box-shadow: 0 6px 16px rgba(58, 122, 246, 0.25);
 }
 
-.forecast-item i {
-    font-size: 1.28rem;
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
     margin-bottom: 8px;
+    fill: currentColor;
+}
+
+.location .icon {
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+}
+
+.hero-content .icon {
+    margin-bottom: 0;
+    margin-right: 0.75rem;
+}
+
+.forecast-icon {
+    width: 1.8rem;
+    height: 1.8rem;
 }
 
 .forecast-item .day {
@@ -133,8 +151,9 @@ body {
     gap: 10px;
 }
 
-.sun-card i {
-    font-size: 1rem;
+.sun-card .icon {
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 .sun-card .label {
@@ -150,11 +169,11 @@ body {
     color: #ffffff;
 }
 
-.sunrise-card i {
+.sunrise-card .icon {
     color: #f4a053;
 }
 
-.sunset-card i {
+.sunset-card .icon {
     color: #b68ae7;
 }
 
@@ -170,39 +189,4 @@ body {
     cursor: pointer;
 }
 
-.hourly-forecast {
-    display: none;
-}    display: flex;
-    justify-content: space-between;
-    margin: 30px 0;
-
-
-.forecast-item {
-    background-color: var(--color-navy-blue-80);
-    padding: 15px;
-    border-radius: 15px;
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.forecast-item.active {
-    background-color: var(--color-white-100);
-    color: var(--color-navy-blue-100);
-}
-
-.sun-details {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-.location-btn {
-    background-color: var(--color-purple-100);
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-    cursor: pointer;
-}
 
