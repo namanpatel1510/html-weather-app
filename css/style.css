@@ -175,7 +175,7 @@ body {
 }    display: flex;
     justify-content: space-between;
     margin: 30px 0;
-}
+
 
 .forecast-item {
     background-color: var(--color-navy-blue-80);
